@@ -1,0 +1,23 @@
+{
+  "name": "fastify-typescript-trial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon  src/index.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "3.5.0",
+    "fastify": "3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "16.11.12",
+    "nodemon": "^2.0.15",
+    "prisma": "3.5.0",
+    "ts-node": "10.4.0",
+    "typescript": "4.5.2"
+  },
+  "prisma": {
+    "seed": "ts-node prisma/seed.ts"
+  }
+}
